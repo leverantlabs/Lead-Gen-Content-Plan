@@ -52,6 +52,17 @@ Just ask, naturally:
 Claude invokes the skill, runs the research, and hands back the report. If you omit the niche or city,
 it asks once, then proceeds.
 
+### Emailing the report
+
+To have the skill **draft the report to your inbox**, run it in **Claude cowork** (the agentic
+workspace) with the Gmail connector enabled. Cowork is what lets Claude use connected tools end to end;
+a plain chat or Project can build the report but can't complete the email draft.
+
+The email is a **short, email-safe HTML summary** (the angle, the numbers, the post hooks, the
+checklist) — not the full styled page. The Gmail connector can't attach files, and the full report is
+too large to drop into a message body, so the polished report stays the Artifact (or save it to Drive
+and the skill links it).
+
 ## License
 
 [MIT](LICENSE) — free to use, modify, and share. Made by [Leverant Labs](https://github.com/leverantlabs).
